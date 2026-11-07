@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ProGYM — премиальный фитнес-клуб в Челябинске. Два зала, гибкие абонементы, опытные тренеры, групповые форматы FULL BODI и ДЖАМПИНГ.">
+  <meta name="theme-color" content="#0B0B0D">
+  <title>ProGYM — премиальный фитнес-клуб в Челябинске</title>
+
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="#" class="logo light" aria-label="ProGYM — на главную">
+      <svg viewBox="0 0 120 80" aria-hidden="true">
+        <path class="pulse-line" d="M2 44 H34 L44 20 L56 66 L68 30 L78 44 H96"/>
+        <path class="heart-shape" d="M104 30c-4-5-12-5-16 0 -4-5-12-5-16 0 -4 5 0 12 16 24 16-12 20-19 16-24z"/>
+      </svg>
+      <span class="logo-text">Pro<span>GYM</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#advantages">О клубе</a></li>
+      <li><a href="#prices">Цены</a></li>
+      <li><a href="#contacts">Залы</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <span class="hero-tag">Фитнес-клуб в Челябинске · 2 зала</span>
+      <h1>Твоя форма.<br><em>Твой ProGYM.</em></h1>
+      <p>Премиальные тренажёры, опытные тренеры и гибкие абонементы в двух районах города. Начни сегодня.</p>
+      <div class="hero-btns">
+        <a href="#prices" class="btn btn-red">Смотреть цены</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="num">2<span>.</span></div><div class="lbl">зала в городе</div></div>
+        <div><div class="num">8–24</div><div class="lbl">график работы</div></div>
+        <div><div class="num">+<span>10</span></div><div class="lbl">форматов тренировок</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="advantages" class="advantages">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag">Почему ProGYM</span>
+      <h2>Больше, чем тренажёрный зал</h2>
+      <p>Мы создали пространство, где комфортно и новичку, и опытному атлету.</p>
+    </div>
+    <div class="adv-grid">
+      <a href="#contacts" class="adv-card">
+        <div class="adv-num">01</div>
+        <h3>Два зала в городе</h3>
+        <p>ТРК «Остров» на Свободы и клуб на 50-летия ВЛКСМ — выбирай ближе к дому.</p>
+        <span class="adv-more">Смотреть залы →</span>
+      </a>
+      <a href="#prices" class="adv-card">
+        <div class="adv-num">02</div>
+        <h3>Гибкие абонементы</h3>
+        <p>Безлимит, дневной, на 8/10/12 занятий или разовое посещение — под твой ритм.</p>
+        <span class="adv-more">Смотреть цены →</span>
+      </a>
+      <a href="#prices" class="adv-card">
+        <div class="adv-num">03</div>
+        <h3>Тренеры-эксперты</h3>
+        <p>Индивидуальные программы и персональные тренировки с результатом.</p>
+        <span class="adv-more">Персональные тренировки →</span>
+      </a>
+      <a href="#group" class="adv-card" data-open-hall="2">
+        <div class="adv-num">04</div>
+        <h3>Групповые форматы</h3>
+        <p>FULL BODI и ДЖАМПИНГ — энергия, драйв и быстрый прогресс в группе.</p>
+        <span class="adv-more">Групповые занятия →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="prices">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag">Цены и абонементы</span>
+      <h2>Прозрачные тарифы</h2>
+      <p>Все цены указаны за 1 месяц. Без скрытых платежей и навязанных услуг.</p>
+    </div>
+
+    <div class="halls-tabs">
+      <button class="tab active" data-hall="1">Зал на Свободы, 110Б</button>
+      <button class="tab" data-hall="2">Зал на 50-летия ВЛКСМ, 10а</button>
+    </div>
+
+    <div id="hall1" class="hall-panel">
+      <div class="hall-info">
+        <h3>ТРК «Остров», ул. Свободы, 110Б</h3>
+        <div class="contacts">
+          <a href="tel:+79617668050">+7 961 766-80-50</a>
+          <a href="https://wa.me/79617668050" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://vk.ru/progym774" target="_blank" rel="noopener">ВКонтакте</a>
+        </div>
+      </div>
+      <table class="price-table">
+        <tr><td>Безлимит <span class="muted">(8:00–24:00)</span></td><td>3 300 ₽</td></tr>
+        <tr><td>Дневной безлимит <span class="muted">(8:00–17:00)</span></td><td>2 800 ₽</td></tr>
+        <tr><td>Абонемент на 8 занятий</td><td>2 700 ₽</td></tr>
+        <tr><td>Абонемент на 10 занятий</td><td>2 900 ₽</td></tr>
+        <tr><td>Абонемент на 12 занятий</td><td>3 100 ₽</td></tr>
+        <tr><td>Разовое посещение <span class="muted">(8:00–17:00 / 17:00–24:00)</span></td><td>400 / 500 ₽</td></tr>
+        <tr><td>Индивидуальная программа тренировок</td><td>1 800 ₽</td></tr>
+        <tr><td>Разовая тренировка с тренером <span class="muted">(без / с абонементом)</span></td><td>900 / 1 200 ₽</td></tr>
+        <tr><td>Блок 10 тренировок с тренером <span class="muted">(без / с абонементом)</span></td><td>8 000 / 11 000 ₽</td></tr>
+      </table>
+    </div>
+
+    <div id="hall2" class="hall-panel hidden">
+      <span id="group" class="anchor"></span>
+      <div class="hall-info">
+        <h3>ул. 50-летия ВЛКСМ, 10а</h3>
+        <div class="contacts">
+          <a href="tel:+79049779995">+7 904 977-99-95</a>
+          <a href="https://wa.me/79049779995" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://vk.ru/progym74" target="_blank" rel="noopener">ВКонтакте</a>
+        </div>
+      </div>
+      <table class="price-table">
+        <tr><td>Безлимит <span class="muted">(8:00–24:00)</span></td><td>3 300 ₽</td></tr>
+        <tr><td>Дневной безлимит <span class="muted">(8:00–17:00)</span></td><td>2 800 ₽</td></tr>
+        <tr><td>Абонемент на 8 занятий</td><td>2 700 ₽</td></tr>
+        <tr><td>Абонемент на 10 занятий</td><td>2 900 ₽</td></tr>
+        <tr><td>Абонемент на 12 занятий</td><td>3 100 ₽</td></tr>
+        <tr><td>Разовое посещение <span class="muted">(8:00–17:00 / 17:00–24:00)</span></td><td>400 / 500 ₽</td></tr>
+        <tr><td>Индивидуальная программа тренировок</td><td>1 800 ₽</td></tr>
+        <tr><td>Разовая тренировка с тренером <span class="muted">(без / с абонементом)</span></td><td>900 / 1 200 ₽</td></tr>
+        <tr><td>Блок 10 тренировок с тренером <span class="muted">(без / с абонементом)</span></td><td>8 000 / 11 000 ₽</td></tr>
+        <tr><td>Разовая тренировка в группе FULL BODI / ДЖАМПИНГ</td><td>500 / 600 ₽</td></tr>
+        <tr><td>Абонемент 8 занятий в группе ДЖАМПИНГ</td><td>4 000 ₽</td></tr>
+        <tr><td>Абонемент 10 занятий в группе FULL BODI</td><td>4 000 ₽</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="contacts" class="contacts">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag">Наши залы</span>
+      <h2>Два адреса в Челябинске</h2>
+      <p>Выбирайте зал рядом с домом или работой — абонементы действуют в обоих.</p>
+    </div>
+    <div class="contacts-grid">
+      <div class="hall-card">
+        <h3>Зал №1 · ТРК «Остров»</h3>
+        <p class="addr">ул. Свободы, 110Б, Челябинск</p>
+        <div class="row"><span class="k">Телефон</span><a href="tel:+79617668050">+7 961 766-80-50</a></div>
+        <div class="row"><span class="k">WhatsApp</span><a href="https://wa.me/79617668050" target="_blank" rel="noopener">Написать</a></div>
+        <div class="row"><span class="k">ВКонтакте</span><a href="https://vk.ru/progym774" target="_blank" rel="noopener">vk.ru/progym774</a></div>
+        <div class="row"><span class="k">График</span><span>8:00 – 24:00</span></div>
+      </div>
+      <div class="hall-card">
+        <h3>Зал №2 · 50-летия ВЛКСМ</h3>
+        <p class="addr">ул. 50-летия ВЛКСМ, 10а, Челябинск</p>
+        <div class="row"><span class="k">Телефон</span><a href="tel:+79049779995">+7 904 977-99-95</a></div>
+        <div class="row"><span class="k">WhatsApp</span><a href="https://wa.me/79049779995" target="_blank" rel="noopener">Написать</a></div>
+        <div class="row"><span class="k">ВКонтакте</span><a href="https://vk.ru/progym74" target="_blank" rel="noopener">vk.ru/progym74</a></div>
+        <div class="row"><span class="k">График</span><span>8:00 – 24:00</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot-inner">
+    <a href="#" class="logo" aria-label="ProGYM">
+      <svg viewBox="0 0 120 80" aria-hidden="true">
+        <path class="pulse-line" d="M2 44 H34 L44 20 L56 66 L68 30 L78 44 H96"/>
+        <path class="heart-shape" d="M104 30c-4-5-12-5-16 0 -4-5-12-5-16 0 -4 5 0 12 16 24 16-12 20-19 16-24z"/>
+      </svg>
+      <span class="logo-text">Pro<span>GYM</span></span>
+    </a>
+    <div class="foot-links">
+      <a href="#prices">Цены</a>
+      <a href="#contacts">Залы</a>
+    </div>
+    <div>© 2026 ProGYM · Челябинск</div>
+  </div>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
